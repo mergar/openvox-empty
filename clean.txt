@@ -1,2 +1,4 @@
+#!/bin/sh
+export PATH="/sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/opt/puppetlabs/bin"
 puppetserver ca clean --certname=host.my.domain
 
