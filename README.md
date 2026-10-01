@@ -5,7 +5,8 @@ Debian 13:
 apt-get -y install ca-certificates
 cd /tmp && wget https://apt.voxpupuli.org/openvox8-release-debian13.deb
 apt-get install /tmp/openvox8-release-debian13.deb
-```
+
+apt update```
 
 apt install -y openvox-agent
 
